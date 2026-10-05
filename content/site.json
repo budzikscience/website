@@ -42,9 +42,9 @@
     "eyebrow": "Aarhus University · LITE Research Group",
     "headline": "Geometry as a material design language.",
     "lead": "My work concerns composite materials and structures in the broad sense, approached through three fields: fibre and laminated composites, adhesive bonding and mechanical metamaterials. What connects them is one question: how geometry and architecture can be used to design materials that are lighter, tougher and more sustainable.",
-    "video": "assets/media/sim-3d.mp4",
-    "poster": "assets/media/sim-3d-poster.jpg",
-    "caption": "Architected strip under tension, COMSOL simulation",
+    "video": "assets/media/lattice-fracture.mp4",
+    "poster": "assets/media/lattice-fracture-poster.jpg",
+    "caption": "Simulated crack growth through an architected lattice interface",
     "cta_primary": {
       "label": "The three fields",
       "href": "#fields"
@@ -76,7 +76,7 @@
     "showcase": {
       "title": "Geometry as a design variable",
       "text": "The same base material, given a different geometry, responds in a completely different way. Using architecture, rather than chemistry, to tailor mechanical behaviour is the common thread in our work.",
-      "video": "assets/media/sim-top.mp4",
+      "video": "",
       "poster": "assets/media/sim-top-poster.jpg"
     }
   },
@@ -281,8 +281,7 @@
       ],
       "image": "assets/img/composites-infusion.jpg",
       "image_alt": "Vacuum resin infusion set-up and woven composite surface scan",
-      "image2": "assets/img/printed-composite-multiscale.jpg",
-      "image2_alt": "Multiscale model of a 3D-printed continuous carbon fibre frame",
+      "image2_alt": "Phase field simulation of crack growth from an inclined defect",
       "projects": [
         "HyFly",
         "LIFE FIBRA",
@@ -306,7 +305,11 @@
             "Geometric tunability of delamination"
           ]
         }
-      ]
+      ],
+      "video2": "assets/media/pfm-defect-cracks.mp4",
+      "poster2": "assets/media/pfm-defect-cracks-poster.jpg",
+      "caption2": "From: MSc thesis of Sagar Rao",
+      "caption": "From: S. Heide-Jørgensen, C. Ibsen, M.K. Budzik, Materials Today Communications 29 (2021)"
     },
     {
       "slug": "adhesive-bonding",
@@ -327,8 +330,7 @@
         "Fracture mechanics and test methods for joints",
         "Design for disassembly"
       ],
-      "image": "assets/img/sls-crack-plane.jpg",
-      "image_alt": "Stress fields and damage zones around designed crack-plane patterns",
+      "image_alt": "Crack front in a bonded joint interacting with a defect",
       "projects": [
         "DuMats"
       ],
@@ -364,7 +366,15 @@
             "Role of adherend material"
           ]
         }
-      ]
+      ],
+      "video": "assets/media/crack-front-dynamics.mp4",
+      "poster": "assets/media/crack-front-dynamics-poster.jpg",
+      "caption": "From: MSc thesis of Morten Andreassen",
+      "video2": "assets/media/wetting-patterning.mp4",
+      "poster2": "assets/media/wetting-patterning-poster.jpg",
+      "image2_alt": "Ink drops on untreated and patterned surfaces",
+      "caption2": "",
+      "small2": true
     },
     {
       "slug": "mechanical-metamaterials",
@@ -386,9 +396,9 @@
         "Test methods for lattice and thin-sheet materials",
         "Data-driven and topological design"
       ],
-      "video": "assets/media/sim-field.mp4",
-      "poster": "assets/media/sim-field-poster.jpg",
-      "image_alt": "Simulation of an architected strip under tension",
+      "video": "assets/media/lattice-fracture.mp4",
+      "poster": "assets/media/lattice-fracture-poster.jpg",
+      "image_alt": "Simulated crack growth through an architected lattice",
       "projects": [
         "Ordo ab Chao",
         "Rupture of architected materials",
@@ -423,7 +433,8 @@
             "Mechanics and fracture of structured pillar"
           ]
         }
-      ]
+      ],
+      "caption": ""
     }
   ],
   "intersection": {
@@ -465,8 +476,8 @@
     "title": "Across all fields",
     "items": [
       {
-        "title": "Fatigue and durability",
-        "text": "A new platform for fatigue testing and fatigue-driven materials design, funded by the Carlsberg Foundation, supports work across composites, bonded joints and architected materials.",
+        "title": "Fracture, fatigue and durability",
+        "text": "How cracks start, grow and stop, under single loads, repeated loads (fatigue) and over a structure's service life, is the common thread through all three fields. We study it with analytical models, numerical methods, including finite element and phase field models of fracture, and experiments. A new Carlsberg Foundation platform for fatigue testing and fatigue-driven materials design supports this work.",
         "projects": [
           "fatigue testing"
         ]

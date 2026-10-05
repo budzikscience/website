@@ -26,7 +26,8 @@ def bold_me(a):
 
 def media(item, cls="", vkey="video", ikey="image", alt="image_alt"):
     if item.get(vkey):
-        return (f'<video class="{cls}" src="{e(item[vkey])}" poster="{e(item.get("poster"))}" autoplay muted loop '
+        pkey = "poster2" if vkey == "video2" else "poster"
+        return (f'<video class="{cls}" src="{e(item[vkey])}" poster="{e(item.get(pkey))}" autoplay muted loop '
                 f'playsinline preload="metadata" aria-label="{e(item.get(alt) or item.get("caption"))}"></video>')
     if item.get(ikey):
         return f'<img class="{cls}" src="{e(item[ikey])}" alt="{e(item.get(alt))}" loading="lazy">'
@@ -146,6 +147,7 @@ cards = "".join(f"""
         <span class="more">Explore <span aria-hidden="true">→</span></span>
       </a>""" for i, f in enumerate(FIELDS, 1))
 
+SHOWCASE = f'''<div class="showcase reveal"><div class="showcase-text"><h3>{e(sc["title"])}</h3><p>{e(sc["text"])}</p></div><div class="showcase-media">{media(sc)}</div></div>''' if sc.get("video") else ""
 home = f"""
 <section class="hero">
   <div class="lattice" aria-hidden="true"></div>
@@ -189,10 +191,7 @@ home = f"""
         <span class="more">Read more <span aria-hidden="true">→</span></span>
       </div>
     </a>
-    <div class="showcase reveal">
-      <div class="showcase-text"><h3>{e(sc["title"])}</h3><p>{e(sc["text"])}</p></div>
-      <div class="showcase-media">{media(sc)}</div>
-    </div>
+    {SHOWCASE}
     <div class="tiles reveal">
       <a href="publications.html"><strong>Publications</strong><span>Journal articles and book chapters</span></a>
       <a href="opportunities.html"><strong>Opportunities</strong><span>Internships, theses and positions</span></a>
@@ -216,7 +215,9 @@ def field_page(f, is_inter=False):
       <ol class="pubs">{"".join(pub_li(p) for p in find_pubs(c["papers"]))}</ol></div>""" for c in f.get("crossroads", []))
     cc = "".join(f'<div class="cc-item"><strong>{e(c["title"])}</strong><p>{e(c["text"])}</p></div>' for c in CC["items"])
     topics = "".join(f"<li>{e(t)}</li>" for t in f["topics"])
-    second = f'<figure class="fig reveal">{media(f, ikey="image2", alt="image2_alt")}</figure>' if f.get("image2") else ""
+    cap1 = f'<figcaption>{e(f["caption"])}</figcaption>' if f.get("caption") else ""
+    cap2 = f'<figcaption>{e(f["caption2"])}</figcaption>' if f.get("caption2") else ""
+    second = f'<figure class="fig reveal{' fig-small' if f.get("small2") else ''}">{media(f, vkey="video2", ikey="image2", alt="image2_alt")}{cap2}</figure>' if (f.get("image2") or f.get("video2")) else ""
     nxt = "".join(f'<a class="field-card {x.get("key", "ci")}" href="{x["slug"]}.html"><h3>{e(x["title"])}</h3><p>{e(x["short"])}</p><span class="more">Explore →</span></a>'
                   for x in (FIELDS if is_inter else others + [INTER]))
     body = f"""
@@ -235,7 +236,7 @@ def field_page(f, is_inter=False):
       <ul class="ticks">{topics}</ul>
     </div>
     <div>
-      <figure class="fig reveal">{media(f)}</figure>
+      <figure class="fig reveal">{media(f)}{cap1}</figure>
       {second}
     </div>
   </div>
