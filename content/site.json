@@ -102,12 +102,6 @@
         "role": "PI"
       },
       {
-        "name": "Low-waste, high-performance fibre/bio-based polymer composites",
-        "funder": "Innovation Fund Denmark Industrial PhD · Grundfos",
-        "years": "2025–2027",
-        "role": "Co-supervisor"
-      },
-      {
         "name": "LIFE FIBRA: Circularity and resilience in forest-based value chains",
         "funder": "EU LIFE",
         "years": "2026–2030",
@@ -118,12 +112,6 @@
         "funder": "Innovation Fund Denmark Industrial PhD · Vestas Aircoil",
         "years": "2025–2028",
         "role": "Co-supervisor"
-      },
-      {
-        "name": "RAMP-UP: Radar-manipulating materials platform for UAVs",
-        "funder": "Danish Defence Technology Center",
-        "years": "2025–2028",
-        "role": "Co-applicant"
       },
       {
         "name": "HyFly: Hybrid glass–carbon fibre flywheels for energy storage",
@@ -298,7 +286,6 @@
       "projects": [
         "HyFly",
         "LIFE FIBRA",
-        "Low-waste",
         "HexCircle"
       ],
       "papers": [
@@ -343,8 +330,7 @@
       "image": "assets/img/sls-crack-plane.jpg",
       "image_alt": "Stress fields and damage zones around designed crack-plane patterns",
       "projects": [
-        "DuMats",
-        "RAMP-UP"
+        "DuMats"
       ],
       "papers": [
         "Highly efficient rubber-to-stainless steel",
