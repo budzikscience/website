@@ -1,0 +1,526 @@
+{
+  "meta": {
+    "site_url": "https://budzik.science",
+    "title": "Michal K. Budzik · Architected Materials & Interfaces",
+    "description": "Michal K. Budzik is Head of Section and Professor of Mechanics and Materials at Aarhus University. He leads the Lightweight Materials and Structures (LITE) group, working on fracture, adhesion, composites and mechanical metamaterials.",
+    "updated": "October 2026"
+  },
+  "person": {
+    "name": "Michal K. Budzik",
+    "full_name": "Michal Kazimierz Budzik",
+    "role": "Professor · Head of Section, Mechanics and Materials",
+    "affiliation": "Department of Mechanical and Production Engineering, Aarhus University",
+    "group": "Lightweight Materials and Structures (LITE)",
+    "photo": "assets/img/michal-budzik.jpg",
+    "email": "mibu@mpe.au.dk",
+    "phone": "+45 41 89 32 17",
+    "address": "Katrinebjergvej 89 F, Building 5132-256, 8200 Aarhus N, Denmark"
+  },
+  "links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=_wfS9UYAAAAJ&hl=en"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-6429-0364"
+    },
+    {
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/Michal-Budzik-2"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/michal-k-budzik-au"
+    },
+    {
+      "label": "Aarhus University",
+      "url": "https://nat.au.dk/en/about-the-faculty/management-and-administration/show/person/mibu@mpe.au.dk"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Aarhus University · LITE Research Group",
+    "headline": "Geometry as a material design language.",
+    "lead": "My work concerns composite materials and structures in the broad sense, approached through three fields: fibre and laminated composites, adhesive bonding and mechanical metamaterials. What connects them is one question: how geometry and architecture can be used to design materials that are lighter, tougher and more sustainable.",
+    "video": "assets/media/sim-3d.mp4",
+    "poster": "assets/media/sim-3d-poster.jpg",
+    "caption": "Architected strip under tension, COMSOL simulation",
+    "cta_primary": {
+      "label": "The three fields",
+      "href": "#fields"
+    },
+    "cta_secondary": {
+      "label": "Publications",
+      "href": "publications.html"
+    }
+  },
+  "about": {
+    "title": "About",
+    "paragraphs": [
+      "I am a Professor and Head of the Mechanics and Materials Section at the Department of Mechanical and Production Engineering, Aarhus University. I lead the Lightweight Materials and Structures (LITE) group and chair the department's PhD programme.",
+      "My research concerns composite materials and structures in the broad sense, at the meeting point of three fields: fibre and laminated composites, adhesive bonding and mechanical metamaterials. I develop theoretical, numerical and experimental methods to design materials that are tough, lightweight and sustainable. Lately I have been bringing in ideas from topology, statistical physics and data science.",
+      "My path started in Gdańsk and Bordeaux, where I did a double PhD. I then worked at CNRS and at the French Space Agency (CNES), where I did fatigue and reliability work for the Ariane 6 programme. I joined Aarhus in 2012, where I founded the Laboratory for Mechanics and Physics of Solids (LAMPS) and co-founded the AU Makerspace. In 2022–23 I spent a year at the LEGO Group as R&D Manager for SLS additive manufacturing materials."
+    ],
+    "highlights": [
+      "Head of Section, Mechanics and Materials, AU MPE",
+      "Chair, AU MPE PhD Programme",
+      "Steering Committee & Space Exploration Theme Leader, AU SpaCe",
+      "Editorial Board, The Journal of Adhesion",
+      "Founder, LAMPS laboratory · Co-founder, AU Makerspace"
+    ],
+    "languages": "Polish · English · French · Danish · German"
+  },
+  "research": {
+    "title": "Research",
+    "intro": "",
+    "showcase": {
+      "title": "Geometry as a design variable",
+      "text": "The same base material, given a different geometry, responds in a completely different way. Using architecture, rather than chemistry, to tailor mechanical behaviour is the common thread in our work.",
+      "video": "assets/media/sim-top.mp4",
+      "poster": "assets/media/sim-top-poster.jpg"
+    }
+  },
+  "projects": {
+    "title": "Selected projects",
+    "items": [
+      {
+        "name": "Ordo ab Chao: Scaling in fracture of complex materials",
+        "funder": "VILLUM Experiment",
+        "years": "2026–2028",
+        "role": "PI"
+      },
+      {
+        "name": "Platform for fatigue testing and fatigue-driven materials design",
+        "funder": "Carlsberg Foundation",
+        "years": "2026–2027",
+        "role": "PI"
+      },
+      {
+        "name": "DuMats: Durable & sustainable metal–polymer hybrids via architected surfaces",
+        "funder": "Innovation Fund Denmark · Grundfos",
+        "years": "2026–2028",
+        "role": "PI"
+      },
+      {
+        "name": "Low-waste, high-performance fibre/bio-based polymer composites",
+        "funder": "Innovation Fund Denmark Industrial PhD · Grundfos",
+        "years": "2025–2027",
+        "role": "Co-supervisor"
+      },
+      {
+        "name": "LIFE FIBRA: Circularity and resilience in forest-based value chains",
+        "funder": "EU LIFE",
+        "years": "2026–2030",
+        "role": "WP leader"
+      },
+      {
+        "name": "HexCircle: Heat-exchanger components for resilient and circular production",
+        "funder": "Innovation Fund Denmark Industrial PhD · Vestas Aircoil",
+        "years": "2025–2028",
+        "role": "Co-supervisor"
+      },
+      {
+        "name": "RAMP-UP: Radar-manipulating materials platform for UAVs",
+        "funder": "Danish Defence Technology Center",
+        "years": "2025–2028",
+        "role": "Co-applicant"
+      },
+      {
+        "name": "HyFly: Hybrid glass–carbon fibre flywheels for energy storage",
+        "funder": "Innovation Fund Denmark Grand Solutions",
+        "years": "2024–2027",
+        "role": "Coordinator"
+      },
+      {
+        "name": "Metadhesives: Architected adhesive interfaces for structural systems",
+        "funder": "UKRI EPSRC",
+        "years": "2022–2025",
+        "role": "Co-investigator"
+      },
+      {
+        "name": "Rupture of architected materials",
+        "funder": "VILLUM Experiment",
+        "years": "2023–2025",
+        "role": "PI"
+      },
+      {
+        "name": "Failure mechanisms in metastatic trabecular bone: a micromechanical approach",
+        "funder": "Manchester Metropolitan University (with Oliver Duncan)",
+        "years": "2025–2027",
+        "role": "External advisor"
+      }
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "intro": "Peer-reviewed articles and book chapters. For citation metrics, see Google Scholar.",
+    "selected_keywords": [
+      "Can confined mechanical metamaterials replace adhesives",
+      "Cutting depth dictates transition",
+      "Disorder enhances the fracture toughness",
+      "Architected interfaces: Tailoring toughness",
+      "Decoupling toughness and strength",
+      "Controlling process zone via geometry",
+      "Ultra tough, architected material joints",
+      "Mechanics and fracture of structured pillar interfaces",
+      "Fracture of disordered and stochastic lattice"
+    ]
+  },
+  "teaching": {
+    "title": "Teaching",
+    "intro": "Courses I currently teach at Aarhus University:",
+    "courses": [
+      {
+        "name": "Design of Composite Structures",
+        "level": ""
+      },
+      {
+        "name": "Mechanical Metamaterials",
+        "level": ""
+      },
+      {
+        "name": "Materials Science",
+        "level": ""
+      }
+    ]
+  },
+  "cv": {
+    "title": "Career",
+    "timeline": [
+      {
+        "years": "Sep 2026–",
+        "text": "Professor & Head of Section, Mechanics and Materials, Aarhus University; Chair of AU MPE PhD Programme"
+      },
+      {
+        "years": "2022–23",
+        "text": "R&D Manager, Materials, SLS Additive Manufacturing, The LEGO Group"
+      },
+      {
+        "years": "2021",
+        "text": "Invited Professor, University of Pennsylvania (USA)"
+      },
+      {
+        "years": "2018–26",
+        "text": "Associate Professor, Aarhus University; PI of the LITE group; founder of LAMPS"
+      },
+      {
+        "years": "2019",
+        "text": "Invited Professor, ENSAM ParisTech (France)"
+      },
+      {
+        "years": "2014–18",
+        "text": "Assistant Professor, Aarhus University"
+      },
+      {
+        "years": "2012–14",
+        "text": "Postdoctoral fellow, Aarhus University"
+      },
+      {
+        "years": "2011–12",
+        "text": "Postdoctoral fellow, French Space Agency (CNES)"
+      },
+      {
+        "years": "2010–11",
+        "text": "Postdoctoral fellow, CNRS, France"
+      },
+      {
+        "years": "2010",
+        "text": "PhD in Materials Engineering (Gdańsk University of Technology) and PhD in Mechanical Engineering (University of Bordeaux)"
+      }
+    ],
+    "awards": [
+      "VILLUM Experiment grants, 2022 and 2025",
+      "Zwick Science Award and Paul Roell Medal, 2012"
+    ],
+    "cv_pdf": ""
+  },
+  "news": {
+    "title": "In the media",
+    "items": [
+      {
+        "date": "2025",
+        "title": "Breaking the pattern: how disorder toughens materials",
+        "source": "Penn Engineering Today",
+        "url": "https://blog.seas.upenn.edu/breaking-the-pattern-how-disorder-toughens-materials/"
+      },
+      {
+        "date": "2025",
+        "title": "Controlled disorder enhances resistance in 3D-printed mechanical metamaterials",
+        "source": "3D Printing Industry",
+        "url": "https://3dprintingindustry.com/news/controlled-disorder-enhances-resistance-in-3d-printed-mechanical-metamaterials-236810/"
+      },
+      {
+        "date": "2024",
+        "title": "New flywheels to store unprecedented amounts of energy",
+        "source": "Aarhus University",
+        "url": "https://ingenioer.au.dk/en/current/news/view/artikel/nye-svinghjul-skal-lagre-hidtil-usete-maengder-af-energi"
+      },
+      {
+        "date": "2023",
+        "title": "Art-inspired tape is both strong and weak",
+        "source": "APS Physics",
+        "url": "https://physics.aps.org/articles/v16/125"
+      },
+      {
+        "date": "2021",
+        "title": "How to cut into a material more smoothly",
+        "source": "APS Physics",
+        "url": "https://physics.aps.org/articles/v14/171"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "text": "For collaborations, student projects, industry partnerships or speaking invitations:"
+  },
+  "fields_intro": {
+    "title": "Composite materials & structures",
+    "text": "Everything here concerns composites in the broad sense: materials and structures made from more than one constituent, including hybrid materials and sandwich panels. Within that frame I work in three fields, and the most interesting questions often appear where they overlap. Select a field to read more.",
+    "umbrella_label": "Composite materials & structures",
+    "umbrella_sub": "hybrid materials · sandwich panels"
+  },
+  "fields": [
+    {
+      "slug": "composite-materials",
+      "key": "c1",
+      "title": "Fibre & laminated composites",
+      "short": "Fibre-reinforced and laminated materials: how they fail, how long they last, and how to design and manufacture them across scales.",
+      "paragraphs": [
+        "Fibre-reinforced and layered materials offer high specific stiffness and strength, but they are often weak between layers. Damage can grow in unstable ways, and properties vary because of flaws introduced during processing.",
+        "We study interlaminar fracture, durability and multiscale behaviour of composites, from fibre–matrix interfaces to components. Increasingly, we work with new manufacturing routes such as continuous-fibre printing and selective laser sintering, and with recycled and bio-based constituents."
+      ],
+      "topics": [
+        "Interlaminar fracture and delamination",
+        "Fibre–matrix interface debonding",
+        "Moisture diffusion and durability",
+        "Multiscale modelling (homogenisation, phase field)",
+        "Additive manufacturing: continuous fibre, SLS",
+        "Hybrid, recycled and bio-based composites"
+      ],
+      "image": "assets/img/composites-infusion.jpg",
+      "image_alt": "Vacuum resin infusion set-up and woven composite surface scan",
+      "image2": "assets/img/printed-composite-multiscale.jpg",
+      "image2_alt": "Multiscale model of a 3D-printed continuous carbon fibre frame",
+      "projects": [
+        "HyFly",
+        "LIFE FIBRA",
+        "Low-waste",
+        "HexCircle"
+      ],
+      "papers": [
+        "Failure of 3D-Printed Composite",
+        "Phase Field Modelling",
+        "arc debonding to tunneling",
+        "Three-dimensional, multiscale homogenization",
+        "Temperature dependence of moisture",
+        "Efficient continuum-based modelling"
+      ],
+      "crossroads": [
+        {
+          "with": "mechanical-metamaterials",
+          "title": "With mechanical metamaterials",
+          "text": "Architecture can be built into laminates themselves. For example, kirigami-inspired cuts widen the crack front and make delamination deliberately intermittent, and patterned interlayers tune delamination resistance through geometry alone.",
+          "papers": [
+            "Designed intermittency",
+            "Geometric tunability of delamination"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "adhesive-bonding",
+      "key": "c2",
+      "title": "Adhesive bonding",
+      "short": "Adhesion from surface to structure: how adhesives wet, cure and age, how surface chemistry and geometry control a bond, and how joints perform and fail.",
+      "paragraphs": [
+        "Adhesive bonding is where my research began, through the experimental fracture mechanics of bonded joints. But a bond is much more than a crack path. Its performance is set long before failure: by how the adhesive wets the surface, how it cures, and how the interface ages.",
+        "We work across these stages: surface preparation and nanoscale chemical modification, for example polymer brushes for rubber–metal bonding; curing and property development; durability of bonded structures; and joining of dissimilar materials. Increasingly, we modify the geometry of the surface itself, using patterns to influence both how a liquid adhesive wets and spreads, and how the cured joint later fractures."
+      ],
+      "topics": [
+        "Wetting and spreading on structured surfaces",
+        "Geometric surface modification and patterning",
+        "Surface treatment and nanoscale chemical modification",
+        "Curing, crosslinking and property development",
+        "Durability and environmental ageing",
+        "Joining dissimilar materials (metal–composite, rubber–metal)",
+        "Fracture mechanics and test methods for joints",
+        "Design for disassembly"
+      ],
+      "image": "assets/img/sls-crack-plane.jpg",
+      "image_alt": "Stress fields and damage zones around designed crack-plane patterns",
+      "projects": [
+        "DuMats",
+        "Metadhesives",
+        "RAMP-UP"
+      ],
+      "papers": [
+        "Highly efficient rubber-to-stainless steel",
+        "Ultra-thin Nano-scaled Chemical Modification",
+        "Testing mechanical performance of adhesively bonded composite joints",
+        "Experimental investigation of a crack front triple line",
+        "Monitoring of Crosslinking",
+        "Antagonist adhesion effects",
+        "From thin to extra-thick",
+        "Accurate and Continuous Adhesive Fracture Energy"
+      ],
+      "crossroads": [
+        {
+          "with": "mechanical-metamaterials",
+          "title": "With mechanical metamaterials",
+          "text": "Geometric surface patterning sits exactly at the crossroads of bonding and metamaterials. Patterns on the bonded surfaces, or architected bondlines (metadhesives), influence how an adhesive wets the surface during bonding and how the joint fractures in service. They can separate fracture energy from crack area and make adhesion asymmetric: strong in service, separable at end of life.",
+          "papers": [
+            "Decoupling fracture energy from crack area",
+            "Can confined mechanical metamaterials replace adhesives",
+            "Mechanics and fracture of structured pillar"
+          ]
+        },
+        {
+          "with": "composite-materials",
+          "title": "With fibre & laminated composites",
+          "text": "Bonding composites to each other and to metals raises its own questions: the role of the adherend, thick multi-material bondlines, and co-cured joints in which bonding and composite processing happen in one step.",
+          "papers": [
+            "Bridging in co-cured composite joints",
+            "Ultra tough, architected material joints",
+            "Multi-material adhesive joints with thick",
+            "Role of adherend material"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mechanical-metamaterials",
+      "key": "c3",
+      "title": "Mechanical metamaterials",
+      "short": "Materials whose behaviour comes from architecture rather than composition: lattices, cut and folded sheets, foams, and natural architected materials such as bone.",
+      "paragraphs": [
+        "In mechanical metamaterials, behaviour is governed by geometry rather than chemistry. That makes it possible to tune stiffness, strength and energy dissipation separately, which is hard to do with conventional materials.",
+        "The architectures we study take many forms: lattices, thin sheets with cuts and folds inspired by kirigami, auxetic foams, and natural architected materials. Bone is one example, and together with Oliver Duncan (Manchester Metropolitan University) we are looking at how trabecular bone fails.",
+        "A common thread is fracture, especially when the material is confined, as in interfaces and bonding layers, and the role of disorder. Periodic architectures are better understood than disordered ones, but even for them many questions about fracture remain open. Disordered architectures, meanwhile, are often more resilient. We want to understand both well enough to use them in design. To do so we combine experiments, theory and data-driven models with ideas from statistical physics and topology."
+      ],
+      "topics": [
+        "Fracture of lattices and architected solids",
+        "Kirigami-inspired cut and folded sheets",
+        "Auxetic foams and composites",
+        "Bio-inspired and biological architectures, including bone",
+        "Disorder and stochastic architectures",
+        "Confined metamaterials and micropolar models",
+        "Test methods for lattice and thin-sheet materials",
+        "Data-driven and topological design"
+      ],
+      "video": "assets/media/sim-field.mp4",
+      "poster": "assets/media/sim-field-poster.jpg",
+      "image_alt": "Simulation of an architected strip under tension",
+      "projects": [
+        "Ordo ab Chao",
+        "Rupture of architected materials",
+        "trabecular bone"
+      ],
+      "papers": [
+        "Disorder enhances the fracture toughness",
+        "Fracture of disordered and stochastic lattice",
+        "Hinged Rigid Beam",
+        "Toughness of Confined Auxetic",
+        "On Micropolar Elastic Foundations",
+        "Auxetic fibre-polymer"
+      ],
+      "crossroads": [
+        {
+          "with": "composite-materials",
+          "title": "With fibre & laminated composites",
+          "text": "Architecture can be built into laminates themselves. Kirigami-inspired cuts and patterned interlayers change how delamination grows, while 3D-printed continuous-fibre lattices combine composite constituents with architected geometry.",
+          "papers": [
+            "Designed intermittency",
+            "Geometric tunability of delamination",
+            "Failure of 3D-Printed Composite"
+          ]
+        },
+        {
+          "with": "adhesive-bonding",
+          "title": "With adhesive bonding",
+          "text": "Confined metamaterials can act as bonding layers (metadhesives), and geometric surface patterns influence both wetting and fracture of bonded joints.",
+          "papers": [
+            "Can confined mechanical metamaterials replace adhesives",
+            "Decoupling fracture energy from crack area",
+            "Mechanics and fracture of structured pillar"
+          ]
+        }
+      ]
+    }
+  ],
+  "intersection": {
+    "slug": "architected-interfaces",
+    "title": "Architected interfaces",
+    "eyebrow": "Where the fields meet",
+    "short": "Putting architecture into the interface itself: geometry that guides cracks, separates strength from toughness, and lets bonded structures be taken apart.",
+    "paragraphs": [
+      "Architected interfaces sit at the crossroads of all three fields. When they overlap, the interface becomes something we can design: geometry such as patterned surfaces, pillars, lattices or designed crack planes controls how an adhesive wets the surface during bonding, and how a bonded or layered material later fails.",
+      "This makes it possible to separate toughness from strength, to make crack growth stable or deliberately intermittent, and to build interfaces that hold in service but can be separated when needed. The work is collaborative, with partners at the University of Pennsylvania, the University of Edinburgh and UCLouvain."
+    ],
+    "topics": [
+      "Geometric control of the fracture process zone",
+      "Surface geometry for wetting and fracture",
+      "Pillar and lattice interfaces",
+      "Surface patterning of delamination",
+      "Metadhesives",
+      "Programmable separation"
+    ],
+    "image": "assets/img/architected-interfaces.jpg",
+    "image_alt": "Beam specimen with a metamaterial interface and unit cells",
+    "projects": [
+      "Metadhesives",
+      "DuMats",
+      "Rupture of architected materials"
+    ],
+    "papers": [
+      "Can confined mechanical metamaterials replace adhesives",
+      "Architected interfaces: Tailoring toughness",
+      "Controlling process zone via geometry",
+      "Decoupling toughness and strength",
+      "Mechanics and fracture of structured pillar",
+      "Toughening mechanisms and damage propagation",
+      "Geometric tunability of delamination",
+      "Decoupling fracture energy from crack area",
+      "Designed intermittency"
+    ]
+  },
+  "cross_cutting": {
+    "title": "Across all fields",
+    "items": [
+      {
+        "title": "Fatigue and durability",
+        "text": "A new platform for fatigue testing and fatigue-driven materials design, funded by the Carlsberg Foundation, supports work across composites, bonded joints and architected materials.",
+        "projects": [
+          "fatigue testing"
+        ]
+      }
+    ]
+  },
+  "opportunities": {
+    "title": "Students & opportunities",
+    "intro": "If you are curious about fracture, adhesion, composites or architected materials, there are several ways to work with me in the LITE group at Aarhus University.",
+    "items": [
+      {
+        "title": "Internships",
+        "text": "Research internships for MSc students, including students from abroad. Projects are typically 3–6 months and combine experiments, modelling or both."
+      },
+      {
+        "title": "MSc and BSc thesis projects",
+        "text": "Experimental, numerical and theoretical projects, often in collaboration with industry partners."
+      },
+      {
+        "title": "PhD positions",
+        "text": "Funded positions are advertised on the Aarhus University job portal. Industrial PhD projects with companies are also possible."
+      },
+      {
+        "title": "Postdocs and visiting researchers",
+        "text": "I am happy to discuss fellowship applications and research stays with researchers who share an interest in these topics."
+      }
+    ],
+    "facilities": "Experimental work takes place in the Laboratory for Mechanics and Physics of Solids (LAMPS) and the AU Makerspace, with facilities for mechanical testing, composites manufacturing and additive manufacturing.",
+    "how": "Send me an email with a short CV, your transcript of records (for students) and a few lines on what interests you.",
+    "cta": {
+      "label": "Get in touch",
+      "href": "mailto:mibu@mpe.au.dk?subject=Opportunities%20in%20the%20LITE%20group"
+    }
+  }
+}
