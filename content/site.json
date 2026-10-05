@@ -132,12 +132,6 @@
         "role": "Coordinator"
       },
       {
-        "name": "Metadhesives: Architected adhesive interfaces for structural systems",
-        "funder": "UKRI EPSRC",
-        "years": "2022–2025",
-        "role": "Co-investigator"
-      },
-      {
         "name": "Rupture of architected materials",
         "funder": "VILLUM Experiment",
         "years": "2023–2025",
@@ -350,7 +344,6 @@
       "image_alt": "Stress fields and damage zones around designed crack-plane patterns",
       "projects": [
         "DuMats",
-        "Metadhesives",
         "RAMP-UP"
       ],
       "papers": [
@@ -467,7 +460,6 @@
     "image": "assets/img/architected-interfaces.jpg",
     "image_alt": "Beam specimen with a metamaterial interface and unit cells",
     "projects": [
-      "Metadhesives",
       "DuMats",
       "Rupture of architected materials"
     ],
